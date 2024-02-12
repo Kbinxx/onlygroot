@@ -1,0 +1,529 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>OnlyGroot</title>
+    <meta name="description" content="Meilleur site des fan de Groot ! OnlyGroot exploite l'entiereté des possibilités de connaissances de groot.">
+    <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="7JJAFhflvLpd5A1LkJr_XJYcSuJgUt7jgCXj2JrH-xo" />
+
+    <link rel="shortcut icon" href="img/ico.ico" type="image/x-icon">
+    <link href="./css-java/style.css" rel="stylesheet" type="text/css">
+    <script src="./css-java/script.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, target-densitydpi=device-dpi"/>
+    <script src="https://kit.fontawesome.com/6d84fffcbd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body onload="initElement();">
+    <div style="background-color: black; width: 100%; height: 6.5em;top:0;" class="navbarhead1" id="accueil">
+        <nav>
+            <a href="easteregg.html" title="Clique ici"><img src="img/cadenat.png" width="125px" height="104px" style="float: right;"></a>
+	          <a href="easteregg.html"title="Clique ici"><img src="img/cadenat.png" width="125px" height="104px" style="float: left;"></a>
+            <div class="textheader">
+                <p style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Only<spe style="font-family: 'Marguerite1'">Groot</spe></p>
+                <!--
+                    Hoefler's Gotham Light for "Only"  "Fans" is Marguerite
+                -->
+            </div>
+            
+        </nav>
+    </div>
+	    <div href="#" style="background-color: green; width: 100%; height: 100%;" class="navbarhead2">
+        <nav>
+            <img src="img/groot-baby-groot.gif" width="95px" height="95px" style="float: left;" id="bouton" title="Je s'appelle groot !">
+            <ul class="navbar" style="list-style: none;font-family:cursive; width: 75%; margin-top: 10px;">
+                <li class="navbarli">
+                    <a href="#accueil" class="navbarlist" title="Accueil"><i class="fa fa-home"></i> ・ Accueil</a>
+                </li>
+                <li class="navbarli">
+                    <a href="#photos" class="navbarlist" title="Nos photos !"><i class="fa fa-picture-o" aria-hidden="true"></i> ・ Photos</a>
+                </li>
+                <li class="navbarli">
+                    <a href="#video" class="navbarlist" title="Nos vidéos !"><i class="fas fa-video"></i> ・ Vidéos</a>
+                </li>
+                <li class="navbarli">
+                  <a href="#reseaux" class="navbarlist" title="Nos réseaux !"><i class="fa fa-share-square-o" aria-hidden="true"></i> ・ Réseaux</a>
+                </li>
+                <li class="navbarli">
+                  <a href="https://www.amazon.fr/groot/s?k=groot" target="_blanck" class="navbarlist" title="Notre shop !"><i class="fa fa-shopping-cart" aria-hidden="true"></i> ・ Shop</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+<!--
+    https://www.youtube.com/watch?v=1vrvAI_XUUY -> groot parodie roddy rich
+
+    https://www.youtube.com/watch?v=DMNTB4fcZug -> groot parodie rodeo cardib lil nas
+
+
+
+-->
+<!-- Superposition et changement background et texte au survol -->
+<div class="overlay-image"><a href="#">
+ <img class="image" src="img/bio.jpg" alt="Alt text" />
+ <div class="normal">
+  <div class="text" style="font-family: cursive;"><b>BIOGRAPHIE</b></div>
+ </div>
+ <div class="hover">
+  <div class="text">Groot, autoproclamé « monarque de la planète X », est un extraterrestre végétal à l'allure d'arbre. La race extraterrestre des Kree l'a désigné sous le terme de « colosse floral », comme l'un des membres de cette espèce quasiment éteinte.<br>
+    L'arbre pensant se rend sur Terre pour étudier et capturer des humains</div>
+ </div>
+</a></div>
+
+
+<div class="overlay-image"><a href="#">
+<img class="image" src="img/pouvoirs.jpg" alt="Alt text" />
+<div class="normal">
+<div class="text" style="font-family: cursive;"><b>POUVOIRS</b></div>
+</div>
+<div class="hover">
+<div class="text">Groot est capable d’absorber le bois et d’autres végétaux afin de soigner ses blessures, se régénérer entièrement (bien qu’il ait également besoin d’eau pour cela) ou accroître sa force. Il est aussi capable de contrôler les arbres, les utilisant habituellement pour attaquer ses ennemis et, aussi étonnant que cela soit, il est capable de résister au feu. Il peut accroître sa taille en « poussant », augmentant ainsi sa masse, mais au détriment de sa mobilité. Groot sembla mourir à plusieurs reprises mais fut, jusqu’à présent, capable de se régénérer entièrement.</div>
+</div>
+</a></div>
+
+<p style="text-align:left;margin-top:20em">&nbsp;</p>
+
+<audio autoplay="false" id="son1" src="img/song.mp3"></audio>
+<button class="scrollToTopBtn">
+    <i class="fa fa-angle-double-up" aria-hidden="false"></i>
+</button>
+
+<p id="photos" ><br></p>
+
+
+<p style="text-align:left;margin-top:2.5em;font-size:2em;margin-left:10%">Photo</p>
+
+<hr>
+<p>
+  <br><br>
+</p>
+
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="img/img1.png" class="imgspe" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="img/img2.png" class="imgspe" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="img/img3.png" class="imgspe" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="img/img4.png"  class="imgspe"style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="img/img5.png" class="imgspe" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="img/img6.png" class="imgspe" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor imgspe2" src="img/img1.png" style="width:100%" onclick="currentSlide(1)" alt="Groot chaud comme la braise">
+    </div>
+    <div class="column">
+      <img class="demo cursor imgspe2" src="img/img2.png" style="width:100%" onclick="currentSlide(2)" alt="Groot se pose des questions">
+    </div>
+    <div class="column">
+      <img class="demo cursor imgspe2" src="img/img3.png" style="width:100%" onclick="currentSlide(3)" alt="Groot déploie la bombe...">
+    </div>
+    <div class="column">
+      <img class="demo cursor imgspe2" src="img/img4.png" style="width:100%" onclick="currentSlide(4)" alt="Groot a peur">
+    </div>
+    <div class="column">
+      <img class="demo cursor imgspe2" src="img/img5.png" style="width:100%" onclick="currentSlide(5)" alt="Groot est triste">
+    </div>    
+    <div class="column">
+      <img class="demo cursor imgspe2" src="img/img6.png" style="width:100%" onclick="currentSlide(6)" alt="Groot met la musique">
+    </div>
+  </div>
+</div>
+
+<script>
+    
+    var scrollToTopBtn = document.querySelector(".scrollToTopBtn")
+    var rootElement = document.documentElement
+    function handleScroll() {
+      // Do something on scroll
+      var scrollTotal = rootElement.scrollHeight - rootElement.clientHeight
+      if ((rootElement.scrollTop / scrollTotal ) > 0.2) {
+        // Show button
+        scrollToTopBtn.classList.add("showBtn")
+      } else {
+        // Hide button
+        scrollToTopBtn.classList.remove("showBtn")
+      }
+    }
+    function scrollToTop() {
+      // Scroll to top logic
+      rootElement.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      })
+    }
+    scrollToTopBtn.addEventListener("click", scrollToTop)
+    document.addEventListener("scroll", handleScroll)
+    
+</script>
+
+
+
+
+<p id="video"><br></p>
+
+<p style="text-align:left;margin-top:2.5em;font-size:2em;margin-left:10%">Vidéos</p>
+
+<hr>
+<p>
+  <br><br>
+</p>
+<center>
+<p style="font-size: 1.5em;">
+  Les edit du mois (choisit parmis beaucoup par notre équipe d'expère) :
+</p>
+<iframe class="video-edit" src="https://www.youtube.com/embed/t2PBtHvnig4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe class="video-edit" src="https://www.youtube.com/embed/SLw4qT57Zwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br><br><br>
+
+<p style="font-size: 1.5em;">
+  Et quelque remix groot (aussi choisit par nos plus grands expères) :
+</p>
+<iframe class="video-edit" src="https://www.youtube.com/embed/2ziWOWC21h0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="video-edit" src="https://www.youtube.com/embed/MOYcgLhUU1g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="video-edit" src="https://www.youtube.com/embed/zF3sQa1pNVY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</center>
+
+
+
+
+<p id="reseaux"><br></p>
+
+<p style="text-align:left;margin-top:2.5em;font-size:2em;margin-left:10%">Réseaux</p>
+
+<hr>
+<p>
+  <br><br>
+</p>
+
+<div class="postinsta">
+  <p style="font-size: 1.5em;">
+    Notre discord : 
+  </p>
+<iframe class="discord" src="https://discord.com/widget?id=960959788878012476&theme=dark"></iframe>
+</div>
+
+<!-- INSTAGRAM -->
+
+<!-- INSTAGRAM -->
+
+
+<div class="postinsta">
+  <p style="font-size: 1.5em;">
+    Nos derniers posts instagram
+  </p>
+  <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/Cbz7qXKMAgw/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+    <div style="padding:16px;">
+      <a href="https://www.instagram.com/p/Cbz7qXKMAgw/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank">
+        <div style=" display: flex; flex-direction: row; align-items: center;">
+          <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div>
+          <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
+            <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div>
+            <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div>
+          </div>
+        </div>
+        <div style="padding: 19% 0;"></div>
+        <div style="display:block; height:50px; margin:0 auto 12px; width:50px;">
+          <svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g transform="translate(-511.000000, -20.000000)" fill="#000000">
+                <g>
+                  <path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div style="padding-top: 8px;">
+          <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">Voir cette publication sur Instagram</div>
+        </div>
+        <div style="padding: 12.5% 0;"></div>
+        <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;">
+          <div>
+            <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div>
+            <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div>
+            <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div>
+          </div>
+          <div style="margin-left: 8px;">
+            <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div>
+            <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div>
+          </div>
+          <div style="margin-left: auto;">
+            <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div>
+            <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div>
+            <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div>
+          </div>
+        </div>
+        <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;">
+          <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div>
+          <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div>
+        </div>
+      </a>
+      <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+        <a href="https://www.instagram.com/p/Cbz7qXKMAgw/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Une publication partagée par Onlygroot (@_onlygroot_)</a>
+      </p>
+    </div>
+  </blockquote>
+  <script async src="//www.instagram.com/embed.js"></script>
+</div>
+
+
+<div class="postinsta">
+  <p style="font-size: 1.5em;">
+    &nbsp;
+  </p>
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CbfHErPMwIW/?utm_source=ig_embed" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+  <div style="padding:16px;">
+       <a href="https://www.instagram.com/p/CbfHErPMwIW/?utm_source=ig_embed" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> 
+          <div style=" display: flex; flex-direction: row; align-items: center;"> 
+              <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;">
+              </div> 
+              <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> 
+                  <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;">
+                  </div> 
+                  <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;">
+                  </div>
+              </div>
+          </div>
+          <div style="padding: 19% 0;">
+          </div> 
+          <div style="display:block; height:50px; margin:0 auto 12px; width:50px;">
+              <svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+                  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <g transform="translate(-511.000000, -20.000000)" fill="#000000">
+                          <g>
+                              <path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631">
+
+                              </path>
+                          </g>
+                      </g>
+                  </g>
+              </svg>
+          </div>
+          <div style="padding-top: 8px;"> 
+              <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">
+                  Voir cette publication sur Instagram
+              </div>
+          </div>
+          <div style="padding: 12.5% 0;">
+          </div> 
+          <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;">
+              <div> 
+                  <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);">
+                  </div> 
+                  <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;">
+                  </div> 
+                  <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);">
+                  </div>
+              </div>
+              <div style="margin-left: 8px;"> 
+                  <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;">
+                  </div> 
+                  <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)">
+                  </div>
+              </div>
+              <div style="margin-left: auto;"> 
+                  <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);">
+                  </div> 
+                  <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);">
+                  </div> 
+                  <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);">
+                  </div>
+              </div>
+          </div> 
+          <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> 
+              <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;">
+              </div>
+          </div>
+      </a>
+      <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+          <a href="https://www.instagram.com/p/CbfHErPMwIW/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Une publication partagée par Onlygroot (@_onlygroot_)
+          </a>
+      </p>
+  </div>
+</blockquote> 
+<script async src="//www.instagram.com/embed.js"></script>
+</div>
+
+<div class="postinsta">
+  <p style="font-size: 1.5em;">
+    &nbsp;
+  </p>
+<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/CbQBTkYMIa_/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+  <div style="padding:16px;">
+    <a href="https://www.instagram.com/p/CbQBTkYMIa_/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank">
+      <div style=" display: flex; flex-direction: row; align-items: center;">
+        <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div>
+        <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
+          <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div>
+          <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div>
+        </div>
+      </div>
+      <div style="padding: 19% 0;"></div>
+      <div style="display:block; height:50px; margin:0 auto 12px; width:50px;">
+        <svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+          <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g transform="translate(-511.000000, -20.000000)" fill="#000000">
+              <g>
+                <path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </div>
+      <div style="padding-top: 8px;">
+        <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">Voir cette publication sur Instagram</div>
+      </div>
+      <div style="padding: 12.5% 0;"></div>
+      <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;">
+        <div>
+          <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div>
+          <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div>
+          <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div>
+        </div>
+        <div style="margin-left: 8px;">
+          <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div>
+          <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div>
+        </div>
+        <div style="margin-left: auto;">
+          <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div>
+          <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div>
+          <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div>
+        </div>
+      </div>
+      <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;">
+        <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div>
+        <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div>
+      </div>
+    </a>
+    <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+      <a href="https://www.instagram.com/p/CbQBTkYMIa_/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Une publication partagée par Onlygroot (@_onlygroot_)</a>
+    </p>
+  </div>
+</blockquote>
+<script async src="//www.instagram.com/embed.js"></script>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!--
+  https://www.youtube.com/results?search_query=Luke+Metzler+remix+groot
+-->
+
+
+
+
+
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
+
+$(function() {
+    /**
+    * Smooth scrolling to page anchor on click
+    **/
+    $("a[href*='#']:not([href='#'])").click(function() {
+        if (
+            location.hostname == this.hostname
+            && this.pathname.replace(/^\//,"") == location.pathname.replace(/^\//,"")
+        ) {
+            var anchor = $(this.hash);
+            anchor = anchor.length ? anchor : $("[name=" + this.hash.slice(1) +"]");
+            if ( anchor.length ) {
+                $("html, body").animate( { scrollTop: anchor.offset().top }, 750);
+            }
+        }
+    });
+});
+</script>
+
+    <div id="navbarpop" >
+        <a class="navbarlist" href="#accueil" title="Accueil"><i class="fa fa-home"></i></a>
+        <a class="navbarlist" href="#photos" title="Nos photos !">Photos</a>
+        <a class="navbarlist" href="#video" title="Nos vidéos !">Vidéos</a>
+        
+        <a class="navbarlist" title="Notre Discord !" target="_blanck" href="https://discord.gg/nc2yVFDxBt" style="float: right;"><i class="fab fa-discord"></i></a>
+        <a class="navbarlist" title="Notre Instagram !" target="_blanck" href="https://www.instagram.com/_onlygroot_/?hl=fr" style="float: right;"><i class="fab fa-instagram"></i></a>
+        <a class="navbarlist" title="Shop !" target="_blanck" href="https://www.amazon.fr/groot/s?k=groot" style="float: right;"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+      </div>
+      
+      <div style="padding:15px 15px 2500px;font-size:30px">
+      </div>
+	  
+</body>
+</html>
+	  
+	  
+	  
+	  
